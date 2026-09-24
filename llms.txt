@@ -2,10 +2,11 @@
 
 > [Üks lause: mida talu pakub ja kus see asub, nt "Pereettevõte [külas, vallas], mis kasvatab ja müüb ..."]
 
-## Tooted ja teenused
-- [Toode/teenus 1]: [lühikirjeldus]
-- [Toode/teenus 2]: [lühikirjeldus]
-- [Toode/teenus 3]: [lühikirjeldus]
+## Toode
+
+Tellimine veebilehe vormi kaudu. Kättesaamine talust kokkuleppel (tasuta) või pakiautomaati üle Eesti (saatmistasu vastavalt paki suurusele). Arve e-postiga, tasumine 3 päeva jooksul.
+
+- Mahemesi, 700 g purk – 7,50 € (sisaldab käibemaksu). Sertifitseeritud mahetoode, kontrolliasutuse kood EE-ÖKO-003, Eesti põllumajandus.
 
 ## Kontakt
 - Veebileht: https://www.simmumardi.ee/
