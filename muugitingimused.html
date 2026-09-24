@@ -11,32 +11,36 @@
 <link rel="canonical" href="https://www.simmumardi.ee/muugitingimused.html">
 <link rel="icon" href="assets/img/placeholder-favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/placeholder-apple-touch-icon.png">
-<meta name="theme-color" content="#1c2622">
+<meta name="theme-color" content="#faf5ea">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="backdrop"></div>
 
-<header>
-  <a class="brand" href="index.html">
-    <img class="logo" src="assets/img/placeholder-logo.svg" alt="" width="52" height="52">
-    <span class="company-name">Simmu-Mardi talu</span>
-  </a>
-  <nav aria-label="Kontakt ja sotsiaalmeedia">
-    <a href="index.html#contact">
-      <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/></svg>
-      <span class="label">Kontakt</span>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <!-- PLACEHOLDER logo -->
+      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#f2e6cf" stroke="#c8902e" stroke-width="2"/><text x="32" y="39" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#8f6117">SM</text></svg>
+      <span class="company-name">Simmu-Mardi talu</span>
     </a>
-    <a href="https://www.facebook.com/p/Simmu-Mardi-talu-100068626570776/">
-      <svg class="icon-solid" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
-      <span class="visually-hidden">Simmu-Mardi talu Facebookis</span>
-    </a>
-  </nav>
+    <nav class="site-nav" aria-label="Kontakt ja sotsiaalmeedia">
+      <a class="icon-link" href="index.html#contact">
+        <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/></svg>
+        <span class="label">Kontakt</span>
+      </a>
+      <a class="icon-link" href="https://www.facebook.com/p/Simmu-Mardi-talu-100068626570776/">
+        <svg class="icon-solid" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+        <span class="visually-hidden">Simmu-Mardi talu Facebookis</span>
+      </a>
+      <a class="button small" href="index.html#contact">Telli mett</a>
+    </nav>
+  </div>
 </header>
 
 <main class="page">
-  <article class="panel prose">
+  <div class="wrap">
+  <article class="prose">
     <h1>Müügitingimused ja privaatsus</h1>
     <p class="updated">Kehtivad alates 23.09.2026</p>
 
@@ -71,7 +75,7 @@
     <p>2.3. Tellimusele kohalduvad tingimused, mis on veebilehel avaldatud tellimuse esitamise ajal.</p>
 
     <h2 id="kaup">3. Kaup ja hind</h2>
-    <p>3.1. Müüme mett 700 g klaaspurgis. Mee kirjeldus on toodud veebilehe avalehel ning parim enne kuupäev on märgitud purgi etiketil.</p>
+    <p>3.1. Müüme sertifitseeritud mahemett 700 g klaaspurgis (mahepõllumajanduse kontrolliasutuse kood EE-ÖKO-003). Mee kirjeldus on toodud veebilehe avalehel ning parim enne kuupäev on märgitud purgi etiketil.</p>
     <p>3.2. Ühe purgi hind on 7,50 € ja see sisaldab käibemaksu.</p>
     <p>3.3. Pakiautomaati saatmise korral lisandub kauba hinnale saatmistasu (vt punkt 6). Saatmistasu on märgitud arvel.</p>
     <p>3.4. Mee kogus on piiratud. Kui kaupa ei ole piisavalt, teatame sellest e-posti teel enne arve saatmist.</p>
@@ -175,15 +179,21 @@
       </div>
     </details>
   </article>
+  </div>
 </main>
 
-<footer>
-  <address>
-    Simmu-Mardi talu · Mäla küla, Muhu vald, 94750 Saare maakond<br>
-    Tel <a href="tel:+37253732970">+372 5373 2970</a> · <a href="mailto:simmumardi@gmail.com">simmumardi@gmail.com</a>
-  </address>
-  <p class="footer-links"><a href="muugitingimused.html">Müügitingimused ja privaatsus</a></p>
-  &copy; <span id="year">2026</span> Simmu-Mardi talu. Kõik õigused kaitstud.
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="company-name">Simmu-Mardi talu</p>
+      <address>OÜ Simmu-Mardi · Mäla küla, Muhu vald, 94750 Saare maakond<br>
+      <a href="tel:+37253732970">+372 5373 2970</a> · <a href="mailto:simmumardi@gmail.com">simmumardi@gmail.com</a></address>
+    </div>
+    <div>
+      <p><a href="muugitingimused.html">Müügitingimused ja privaatsus</a></p>
+      <p class="copy">&copy; <span id="year">2026</span> Simmu-Mardi talu. Kõik õigused kaitstud.</p>
+    </div>
+  </div>
 </footer>
 
 <script>
