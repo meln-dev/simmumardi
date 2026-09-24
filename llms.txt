@@ -1,0 +1,16 @@
+# Simmu-Mardi talu
+
+> [Üks lause: mida talu pakub ja kus see asub, nt "Pereettevõte [külas, vallas], mis kasvatab ja müüb ..."]
+
+## Tooted ja teenused
+- [Toode/teenus 1]: [lühikirjeldus]
+- [Toode/teenus 2]: [lühikirjeldus]
+- [Toode/teenus 3]: [lühikirjeldus]
+
+## Kontakt
+- Veebileht: https://www.simmumardi.ee/
+- Tellimis- ja kontaktivorm: https://www.simmumardi.ee/#contact
+- Müügitingimused ja privaatsus: https://www.simmumardi.ee/muugitingimused.html
+- Asukoht: Mäla küla, Muhu vald, 94750 Saare maakond, Eesti
+- Telefon: +372 5373 2970
+- E-post: simmumardi@gmail.com

@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Unoptimized original images (keep only optimized WebP in assets/img)
+_originals/
+
+# Preview zips for sending to others
+*.zip
+
+# Internal planning notes: kept on this computer only (GitHub Pages would publish them)
+TODO.md
+plan.md
+specs.md

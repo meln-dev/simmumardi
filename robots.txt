@@ -1,0 +1,5 @@
+# Allow all crawlers, including search engines and AI tools
+User-agent: *
+Allow: /
+
+Sitemap: https://www.simmumardi.ee/sitemap.xml
