@@ -139,14 +139,14 @@ img { display: block; max-width: 100%; }
   border-radius: 999px;
   border: 1.5px solid var(--honey);
   background: var(--honey);
-  color: #fff;
+  color: var(--ink); /* dark text on honey: contrast 5.7:1 (white was only 2.7:1) */
   font: 500 1rem 'Inter', sans-serif;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
 
-.button:hover { background: var(--honey-dark); border-color: var(--honey-dark); }
+.button:hover { background: var(--honey-dark); border-color: var(--honey-dark); color: #fff; } /* white on dark honey: 5.4:1 */
 
 .button.secondary {
   background: transparent;
@@ -154,7 +154,7 @@ img { display: block; max-width: 100%; }
   border-color: var(--line);
 }
 
-.button.secondary:hover { border-color: var(--honey); background: transparent; }
+.button.secondary:hover { border-color: var(--honey); background: transparent; color: var(--ink); }
 
 .button.small { padding: 0.5rem 1rem; font-size: 0.9rem; }
 
