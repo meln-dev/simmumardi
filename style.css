@@ -252,7 +252,8 @@ img { display: block; max-width: 100%; }
 
 /* Hero */
 .hero {
-  padding: 3.5rem 0 4rem; /* room under the hanging logo tag */
+  padding: 3.5rem 0 2.5rem; /* room under the hanging logo tag; tighter towards "Meist" */
+  background: #f6ecd9; /* warm cream band, so it stands apart from the light "Meist" band below */
 }
 
 .hero .wrap {
@@ -384,6 +385,12 @@ img { display: block; max-width: 100%; }
 .card p { color: var(--muted); }
 
 /* Product */
+/* "Meist" gets its own light band, so it stands apart from the opening section above and the sand product band below */
+#meist {
+  background: var(--paper);
+  padding-top: 3rem;
+}
+
 .product {
   background: var(--sand);
 }
@@ -657,7 +664,8 @@ form button[type="submit"]:disabled { opacity: 0.6; cursor: wait; }
   .page { padding-top: 4.5rem; } /* room under the logo tag on the terms page */
   .company-name { font-size: 1.4rem; }
   .section { padding: 5.5rem 0; }
-  .hero { padding: 4.5rem 0 5.5rem; }
+  .hero { padding: 4.5rem 0 3.5rem; }
+  #meist { padding-top: 4rem; }
   .hero .wrap { grid-template-columns: 1.1fr 0.9fr; gap: 4rem; }
   .hero-image img { aspect-ratio: 4 / 5; }
   .contact-grid { grid-template-columns: 0.9fr 1.1fr; gap: 4rem; align-items: start; }
