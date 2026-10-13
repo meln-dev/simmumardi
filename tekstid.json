@@ -28,7 +28,7 @@
   "hero": {
     "eyebrow": "Mahemesi · Muhumaa",
     "title": "Simmu-Mardi talu mesi",
-    "lead": "Maitsev mesi Muhumaa loodusest.",
+    "lead": "Maitsev mesi Muhumaa loodusest",
     "orderButton": "Telli mett",
     "moreButton": "Loe lähemalt",
     "imageAlt": "Kolm Simmu-Mardi talu mahemee purki samblal metsas, taamal mesitarud"
@@ -51,7 +51,7 @@
 
   "product": {
     "imageAlt": "Simmu-Mardi talu mahemee 700 g purk mesitaru lennulaual, taustal lendavad mesilased",
-    "title": "Mahemesi, 700 g purk",
+    "title": "Mesi, 700 g purk",
     "price": "7,50 €",
     "priceNote": "sisaldab käibemaksu",
     "organicLogoAlt": "ELi mahepõllumajanduse logo",
