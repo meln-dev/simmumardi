@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
+<!-- GENERATED FILE: edit index.template.html (layout) or tekstid.json (texts), then run "node build.js". Do not edit index.html directly. -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- TEMPORARY until launch: remove this noindex when the site goes live on www.simmumardi.ee -->
@@ -36,7 +37,7 @@
   "url": "https://www.simmumardi.ee/",
   "logo": "https://www.simmumardi.ee/assets/img/placeholder-logo.svg",
   "image": "https://www.simmumardi.ee/assets/img/meepurk.webp",
-  "description": "[Sama tekst mis meta description.]",
+  "description": "[1–2 lauset: Simmu-Mardi talu sertifitseeritud mahemesi Muhumaalt, 700 g purk 7,50 €. Tellimine talust või pakiautomaati. Kuni ~155 tähemärki.]",
   "legalName": "OÜ Simmu-Mardi",
   "taxID": "14913365",
   "vatID": "EE102304219",
@@ -302,7 +303,7 @@
     function orderTotal() {
       var qty = parseInt(quantity.value, 10);
       if (!(price > 0 && qty > 0)) return '';
-      return euros(price * qty) + (isParcel() ? ' + saatmistasu' : '');
+      return euros(price * qty) + (isParcel() ? " + saatmistasu" : '');
     }
 
     // Disabled fieldsets are not validated or sent, so a question never carries order fields
@@ -319,8 +320,8 @@
       phone.required = parcel;
       message.required = !order;    // message is optional for orders
       message.placeholder = order
-        ? 'Soovi korral lisainfo, nt sobiv aeg talust kättesaamiseks (valikuline)'
-        : 'Kuidas saame aidata?';
+        ? "Soovi korral lisainfo, nt sobiv aeg talust kättesaamiseks (valikuline)"
+        : "Kuidas saame aidata?";
       if (order && !quantity.value) quantity.value = 1;
       updateTotal();
     }
@@ -328,7 +329,7 @@
     function updateTotal() {
       var t = orderTotal();
       total.textContent = t
-        ? 'Kokku ' + t + (isParcel() ? ' (sõltub paki suurusest, märgime arvele).' : '.')
+        ? "Kokku " + t + (isParcel() ? " (sõltub paki suurusest, märgime arvele)." : '.')
         : '';
     }
 
@@ -352,7 +353,7 @@
 
       button.disabled = true;
       status.className = 'form-status';
-      status.textContent = 'Saadan…';
+      status.textContent = "Saadan…";
 
       fetch(form.action, {
         method: 'POST',
@@ -368,14 +369,14 @@
           var order = isOrder();
           status.className = 'form-status success';
           status.textContent = order
-            ? 'Aitäh! Tellimus on saadetud. Saadame arve e-postiga.'
-            : 'Aitäh! Sõnum on saadetud. Vastame esimesel võimalusel.';
+            ? "Aitäh! Tellimus on saadetud. Saadame arve e-postiga."
+            : "Aitäh! Sõnum on saadetud. Vastame esimesel võimalusel.";
           form.reset();
           updateMode();
         })
         .catch(function () {
           status.className = 'form-status error';
-          status.textContent = 'Saatmine ebaõnnestus. Palun proovige uuesti või kirjutage meile otse e-postiga.';
+          status.textContent = "Saatmine ebaõnnestus. Palun proovige uuesti või kirjutage meile otse e-postiga.";
         })
         .then(function () {
           button.disabled = false;

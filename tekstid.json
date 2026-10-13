@@ -1,0 +1,118 @@
+{
+  "_juhend": "Kõik avalehe (index.html) tekstid. Muuda siin, siis käivita: node build.js – see kirjutab index.html uuesti. Ära muuda index.html faili otse. Nurksulgudes [ ] tekstid on veel täitmata.",
+
+  "meta": {
+    "title": "Simmu-Mardi talu – mahemesi Muhumaalt",
+    "description": "[1–2 lauset: Simmu-Mardi talu sertifitseeritud mahemesi Muhumaalt, 700 g purk 7,50 €. Tellimine talust või pakiautomaati. Kuni ~155 tähemärki.]",
+    "shareTitle": "Simmu-Mardi talu – mahemesi Muhumaalt",
+    "shareDescription": "[Sama või lühem kui meta description.]",
+    "shareImageAlt": "Simmu-Mardi talu"
+  },
+
+  "business": {
+    "name": "Simmu-Mardi talu",
+    "legalName": "OÜ Simmu-Mardi",
+    "address": "Mäla küla, Muhu vald, 94750 Saare maakond",
+    "phone": "+372 5373 2970",
+    "email": "simmumardi@gmail.com"
+  },
+
+  "header": {
+    "logoAlt": "Simmu-Mardi talu",
+    "navLabel": "Kontakt ja sotsiaalmeedia",
+    "contact": "Kontakt",
+    "facebook": "Simmu-Mardi talu Facebookis",
+    "orderButton": "Telli mett"
+  },
+
+  "hero": {
+    "eyebrow": "Mahemesi · Muhumaa",
+    "title": "Simmu-Mardi talu mesi",
+    "lead": "[Üks-kaks lauset: mis mesi see on ja miks see on hea – nt „Muhu niitude ja metsade mahemesi otse meie mesilast.“]",
+    "orderButton": "Telli mett",
+    "moreButton": "Loe lähemalt",
+    "imageAlt": "Kolm Simmu-Mardi talu mahemee purki samblal metsas, taamal mesitarud"
+  },
+
+  "about": {
+    "eyebrow": "Meist",
+    "title": "Väike talu, päris mesi",
+    "intro": "[Üks lause talust ja mesindusest.]",
+    "card1PhotoPlaceholder": "Foto: mesi / meepurgid",
+    "card1Title": "Mida pakume",
+    "card1Text": "Mesi 700 g purkides otse Simmu-Mardi talust Muhus. [Üks-kaks lauset mee kohta: nt sort, maitse, kust mesilased korjavad.]",
+    "card2ImageAlt": "Kolm kollase-rohelise triibulist mesitaru mesilas, taustal lehtpuud",
+    "card2Title": "Kuidas töötame",
+    "card2Text": "[Kuidas mesi valmib: nt mesilased, vurritamine, pudeldamine.]",
+    "card3PhotoPlaceholder": "Foto: talu / Muhu loodus",
+    "card3Title": "Miks meie",
+    "card3Text": "[Mis teeb talu eriliseks: nt pere ajalugu, kvaliteet, kohalikkus.]"
+  },
+
+  "product": {
+    "imageAlt": "Simmu-Mardi talu mahemee 700 g purk mesitaru lennulaual, taustal lendavad mesilased",
+    "eyebrow": "Meie toode",
+    "title": "Mahemesi, 700 g purk",
+    "price": "7,50 €",
+    "priceNote": "sisaldab käibemaksu",
+    "organicLogoAlt": "ELi mahepõllumajanduse logo",
+    "organicCode": "EE-ÖKO-003",
+    "organicOrigin": "Eesti põllumajandus",
+    "point1": "Sertifitseeritud mahetoode",
+    "point2": "Kättesaamine talust kokkuleppel – tasuta",
+    "point3": "Pakiautomaati üle Eesti – saatmistasu vastavalt paki suurusele",
+    "point4": "Arve e-postiga, tasumine 3 päeva jooksul",
+    "point5": "Kaup teele 3 tööpäeva jooksul pärast makset",
+    "orderButton": "Telli mett"
+  },
+
+  "contact": {
+    "eyebrow": "Tellimine ja kontakt",
+    "title": "Telli mett või küsi julgelt",
+    "step1Title": "Saada tellimus",
+    "step1Text": "Vali kogus ja kättesaamise viis.",
+    "step2Title": "Saadame arve",
+    "step2Text": "E-postiga, koos saatmistasuga, kui tellid pakiautomaati.",
+    "step3Title": "Tasu ja saa kätte",
+    "step3Text": "Talust kokkuleppel või pakiautomaadist."
+  },
+
+  "form": {
+    "choiceLegend": "Soovin",
+    "choiceQuestion": "Küsida",
+    "choiceOrder": "Tellida mett",
+    "quantityLabel": "Kogus (700 g meepurki)",
+    "priceHint": "Hind 7,50 € / purk (sisaldab käibemaksu).",
+    "deliveryLegend": "Kättesaamine",
+    "deliveryFarm": "Talust",
+    "deliveryParcel": "Pakiautomaati",
+    "lockerLabel": "Pakiautomaat",
+    "lockerPlaceholder": "Automaadi nimi või asukoht",
+    "phoneLabel": "Telefon (paki teavituse jaoks)",
+    "termsBefore": "Olen tutvunud",
+    "termsLink": "müügitingimustega",
+    "termsAfter": "ja nõustun nendega.",
+    "nameLabel": "Nimi",
+    "namePlaceholder": "Teie nimi",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "nimi@näide.ee",
+    "messageLabel": "Sõnum",
+    "messagePlaceholderQuestion": "Kuidas saame aidata?",
+    "messagePlaceholderOrder": "Soovi korral lisainfo, nt sobiv aeg talust kättesaamiseks (valikuline)",
+    "submit": "Saada",
+    "note": "Kasutame Teie andmeid ainult päringule vastamiseks ja tellimuse täitmiseks. Vormi edastab teenus Web3Forms. Loe lähemalt:",
+    "noteLink": "isikuandmete töötlemine",
+    "totalPrefix": "Kokku ",
+    "parcelFeeSuffix": " + saatmistasu",
+    "parcelTotalNote": " (sõltub paki suurusest, märgime arvele).",
+    "statusSending": "Saadan…",
+    "statusOrderSent": "Aitäh! Tellimus on saadetud. Saadame arve e-postiga.",
+    "statusQuestionSent": "Aitäh! Sõnum on saadetud. Vastame esimesel võimalusel.",
+    "statusError": "Saatmine ebaõnnestus. Palun proovige uuesti või kirjutage meile otse e-postiga."
+  },
+
+  "footer": {
+    "termsLink": "Müügitingimused ja privaatsus",
+    "rights": "Simmu-Mardi talu. Kõik õigused kaitstud."
+  }
+}

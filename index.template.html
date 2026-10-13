@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<!-- GENERATED FILE: edit index.template.html (layout) or tekstid.json (texts), then run "node build.js". Do not edit index.html directly. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TEMPORARY until launch: remove this noindex when the site goes live on www.simmumardi.ee -->
+<meta name="robots" content="noindex">
+<!-- PLACEHOLDER metadata: replace [bracketed] texts; drop "placeholder-" images when real ones exist -->
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<link rel="canonical" href="https://www.simmumardi.ee/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="et_EE">
+<meta property="og:site_name" content="Simmu-Mardi talu">
+<meta property="og:title" content="{{meta.shareTitle}}">
+<meta property="og:description" content="{{meta.shareDescription}}">
+<meta property="og:url" content="https://www.simmumardi.ee/">
+<meta property="og:image" content="https://www.simmumardi.ee/assets/img/placeholder-og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.shareImageAlt}}">
+
+<link rel="icon" href="assets/img/placeholder-favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/placeholder-apple-touch-icon.png">
+<meta name="theme-color" content="#faf5ea">
+
+<link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Simmu-Mardi talu",
+  "url": "https://www.simmumardi.ee/",
+  "logo": "https://www.simmumardi.ee/assets/img/placeholder-logo.svg",
+  "image": "https://www.simmumardi.ee/assets/img/meepurk.webp",
+  "description": {{js:meta.description}},
+  "legalName": "OÜ Simmu-Mardi",
+  "taxID": "14913365",
+  "vatID": "EE102304219",
+  "email": "simmumardi@gmail.com",
+  "telephone": "+37253732970",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Simmu-Mardi talu, Mäla küla",
+    "addressLocality": "Muhu vald",
+    "addressRegion": "Saare maakond",
+    "postalCode": "94750",
+    "addressCountry": "EE"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "price": "7.50",
+    "priceCurrency": "EUR",
+    "itemOffered": {
+      "@type": "Product",
+      "name": {{js:product.title}},
+      "image": "https://www.simmumardi.ee/assets/img/meepurk.webp"
+    }
+  },
+  "sameAs": ["https://www.facebook.com/p/Simmu-Mardi-talu-100068626570776/"]
+}
+</script>
+<link rel="stylesheet" href="style.css?v=9">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img class="logo" src="assets/img/logo-560.webp" alt="{{header.logoAlt}}" width="560" height="372">
+    </a>
+    <nav class="site-nav" aria-label="{{header.navLabel}}">
+      <a class="icon-link" href="#contact">
+        <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/></svg>
+        <span class="label">{{header.contact}}</span>
+      </a>
+      <a class="icon-link" href="https://www.facebook.com/p/Simmu-Mardi-talu-100068626570776/">
+        <svg class="icon-solid" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+        <span class="visually-hidden">{{header.facebook}}</span>
+      </a>
+      <a class="button small" href="#contact" data-order>{{header.orderButton}}</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Opening section -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="eyebrow">{{hero.eyebrow}}</span>
+        <h1>{{hero.title}}</h1>
+        <p class="lead">{{hero.lead}}</p>
+        <div class="hero-actions">
+          <a class="button" href="#contact" data-order>{{hero.orderButton}}</a>
+          <a class="button secondary" href="#meist">{{hero.moreButton}}</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/img/taust-purgid-800.webp" srcset="assets/img/taust-purgid-800.webp 800w, assets/img/taust-purgid-1000.webp 1000w" sizes="(min-width: 900px) 470px, 92vw" alt="{{hero.imageAlt}}" width="800" height="1067" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <!-- About: three cards side by side on desktop -->
+  <section class="section" id="meist" aria-labelledby="meist-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">{{about.eyebrow}}</span>
+        <h2 id="meist-heading">{{about.title}}</h2>
+        <p>{{about.intro}}</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="ph">{{about.card1PhotoPlaceholder}}</div>
+          <div class="card-body">
+            <h3>{{about.card1Title}}</h3>
+            <p>{{about.card1Text}}</p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="assets/img/mesila.webp" alt="{{about.card2ImageAlt}}" width="800" height="600" loading="lazy">
+          <div class="card-body">
+            <h3>{{about.card2Title}}</h3>
+            <p>{{about.card2Text}}</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph">{{about.card3PhotoPlaceholder}}</div>
+          <div class="card-body">
+            <h3>{{about.card3Title}}</h3>
+            <p>{{about.card3Text}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <section class="section product" aria-labelledby="toode-heading">
+    <div class="wrap">
+      <div class="product-box">
+        <img class="product-img" src="assets/img/meepurk.webp" alt="{{product.imageAlt}}" width="1000" height="750" loading="lazy">
+        <div class="product-info">
+          <div class="product-top">
+            <div>
+              <span class="eyebrow">{{product.eyebrow}}</span>
+              <h2 id="toode-heading">{{product.title}}</h2>
+              <p class="product-price">{{product.price}} <small>{{product.priceNote}}</small></p>
+            </div>
+            <figure class="organic">
+              <img src="assets/img/eu-organic-logo.jpg" alt="{{product.organicLogoAlt}}" width="500" height="333">
+              <figcaption><span>{{product.organicCode}}</span><span>{{product.organicOrigin}}</span></figcaption>
+            </figure>
+          </div>
+          <ul class="product-list">
+            <li>{{product.point1}}</li>
+            <li>{{product.point2}}</li>
+            <li>{{product.point3}}</li>
+            <li>{{product.point4}}</li>
+            <li>{{product.point5}}</li>
+          </ul>
+          <a class="button" href="#contact" data-order>{{product.orderButton}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order and contact -->
+  <section class="section" id="contact" aria-labelledby="contact-heading">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow">{{contact.eyebrow}}</span>
+        <h2 id="contact-heading">{{contact.title}}</h2>
+        <ol class="steps">
+          <li><div><strong>{{contact.step1Title}}</strong><span>{{contact.step1Text}}</span></div></li>
+          <li><div><strong>{{contact.step2Title}}</strong><span>{{contact.step2Text}}</span></div></li>
+          <li><div><strong>{{contact.step3Title}}</strong><span>{{contact.step3Text}}</span></div></li>
+        </ol>
+        <address class="contact-details">
+          <strong>{{business.name}}</strong>
+          <span>{{business.address}}</span>
+          <a href="tel:+37253732970">{{business.phone}}</a>
+          <a href="mailto:simmumardi@gmail.com">{{business.email}}</a>
+        </address>
+      </div>
+      <div class="form-card">
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7dc63e33-1db3-48fc-9c2d-06ce0669c745">
+          <input type="hidden" name="subject" value="Uus sõnum veebilehelt">
+          <input type="hidden" name="from_name" value="Simmu-Mardi talu veebileht">
+          <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off">
+
+          <fieldset class="choice">
+            <legend>{{form.choiceLegend}}</legend>
+            <div class="choice-options">
+              <label><input type="radio" name="Tüüp" value="Küsimus" checked> {{form.choiceQuestion}}</label>
+              <label><input type="radio" name="Tüüp" value="Tellimus"> {{form.choiceOrder}}</label>
+            </div>
+          </fieldset>
+
+          <!-- data-price: price per jar. Parcel locker fee depends on order size, so it is not added here -->
+          <fieldset class="order-fields" id="order-fields" data-price="7.50">
+            <label for="quantity">{{form.quantityLabel}}</label>
+            <input type="number" id="quantity" name="Kogus (700 g purki)" min="1" max="200" step="1" inputmode="numeric">
+            <p class="hint">{{form.priceHint}} <span id="order-total"></span></p>
+
+            <fieldset class="choice delivery">
+              <legend>{{form.deliveryLegend}}</legend>
+              <div class="choice-options">
+                <label><input type="radio" name="Kättesaamine" value="Talust" checked> {{form.deliveryFarm}}</label>
+                <label><input type="radio" name="Kättesaamine" value="Pakiautomaati"> {{form.deliveryParcel}}</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="parcel-fields" id="parcel-fields">
+              <div>
+                <label for="locker">{{form.lockerLabel}}</label>
+                <input type="text" id="locker" name="Pakiautomaat" placeholder="{{form.lockerPlaceholder}}">
+              </div>
+              <div>
+                <label for="phone">{{form.phoneLabel}}</label>
+                <input type="tel" id="phone" name="Telefon" placeholder="+372" autocomplete="tel">
+              </div>
+            </fieldset>
+
+            <label class="check">
+              <input type="checkbox" id="terms" name="Müügitingimustega nõus" value="Jah">
+              <span>{{form.termsBefore}} <a href="muugitingimused.html" target="_blank">{{form.termsLink}}</a> {{form.termsAfter}}</span>
+            </label>
+          </fieldset>
+
+          <div>
+            <label for="name">{{form.nameLabel}}</label>
+            <input type="text" id="name" name="Nimi" placeholder="{{form.namePlaceholder}}" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">{{form.emailLabel}}</label>
+            <input type="email" id="email" name="email" placeholder="{{form.emailPlaceholder}}" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="message">{{form.messageLabel}}</label>
+            <textarea id="message" name="Sõnum" placeholder="{{form.messagePlaceholderQuestion}}" required></textarea>
+          </div>
+          <button type="submit" class="button">{{form.submit}}</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-note">{{form.note}} <a href="muugitingimused.html#privaatsus">{{form.noteLink}}</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="company-name">{{business.name}}</p>
+      <address>{{business.legalName}} · {{business.address}}<br>
+      <a href="tel:+37253732970">{{business.phone}}</a> · <a href="mailto:simmumardi@gmail.com">{{business.email}}</a></address>
+    </div>
+    <div>
+      <p><a href="muugitingimused.html">{{footer.termsLink}}</a></p>
+      <p class="copy">&copy; <span id="year">2026</span> {{footer.rights}}</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Contact / order form. Without JS the form still posts normally and the order box stays visible.
+  (function () {
+    var form = document.getElementById('contact-form');
+    var orderFields = document.getElementById('order-fields');
+    var parcelFields = document.getElementById('parcel-fields');
+    var quantity = document.getElementById('quantity');
+    var locker = document.getElementById('locker');
+    var phone = document.getElementById('phone');
+    var terms = document.getElementById('terms');
+    var message = document.getElementById('message');
+    var total = document.getElementById('order-total');
+    var status = document.getElementById('form-status');
+    var button = form.querySelector('button[type="submit"]');
+    var price = parseFloat(orderFields.dataset.price);
+
+    function isOrder() {
+      return form.querySelector('input[name="Tüüp"]:checked').value === 'Tellimus';
+    }
+
+    function isParcel() {
+      return form.querySelector('input[name="Kättesaamine"]:checked').value === 'Pakiautomaati';
+    }
+
+    function euros(n) {
+      return n.toFixed(2).replace('.', ',') + ' €';
+    }
+
+    // Returns e.g. "15,00 €" or "15,00 € + saatmistasu"; '' if no total
+    function orderTotal() {
+      var qty = parseInt(quantity.value, 10);
+      if (!(price > 0 && qty > 0)) return '';
+      return euros(price * qty) + (isParcel() ? {{js:form.parcelFeeSuffix}} : '');
+    }
+
+    // Disabled fieldsets are not validated or sent, so a question never carries order fields
+    function updateMode() {
+      var order = isOrder();
+      var parcel = order && isParcel();
+      orderFields.hidden = !order;
+      orderFields.disabled = !order;
+      parcelFields.hidden = !parcel;
+      parcelFields.disabled = !parcel;
+      quantity.required = order;
+      terms.required = order;
+      locker.required = parcel;
+      phone.required = parcel;
+      message.required = !order;    // message is optional for orders
+      message.placeholder = order
+        ? {{js:form.messagePlaceholderOrder}}
+        : {{js:form.messagePlaceholderQuestion}};
+      if (order && !quantity.value) quantity.value = 1;
+      updateTotal();
+    }
+
+    function updateTotal() {
+      var t = orderTotal();
+      total.textContent = t
+        ? {{js:form.totalPrefix}} + t + (isParcel() ? {{js:form.parcelTotalNote}} : '.')
+        : '';
+    }
+
+    form.addEventListener('change', function (e) {
+      if (e.target.name === 'Tüüp' || e.target.name === 'Kättesaamine') updateMode();
+    });
+    quantity.addEventListener('input', updateTotal);
+    updateMode();
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var data = Object.fromEntries(new FormData(form));
+      var name = data['Nimi'];
+      if (isOrder()) {
+        data.subject = 'Tellimus: ' + data['Kogus (700 g purki)'] + ' × mesi 700 g, ' +
+          (isParcel() ? 'pakiautomaat' : 'talust') + ' – ' + name;
+        if (orderTotal()) data['Summa (orienteeruv)'] = orderTotal();
+      } else {
+        data.subject = 'Küsimus veebilehelt – ' + name;
+      }
+
+      button.disabled = true;
+      status.className = 'form-status';
+      status.textContent = {{js:form.statusSending}};
+
+      fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(data)
+      })
+        .then(function (response) {
+          return response.json().then(function (json) {
+            if (!response.ok || !json.success) throw new Error(json.message);
+          });
+        })
+        .then(function () {
+          var order = isOrder();
+          status.className = 'form-status success';
+          status.textContent = order
+            ? {{js:form.statusOrderSent}}
+            : {{js:form.statusQuestionSent}};
+          form.reset();
+          updateMode();
+        })
+        .catch(function () {
+          status.className = 'form-status error';
+          status.textContent = {{js:form.statusError}};
+        })
+        .then(function () {
+          button.disabled = false;
+        });
+    });
+  })();
+</script>
+<script>
+  // "Telli mett" buttons: jump to the form with "Tellida mett" already selected
+  document.querySelectorAll('[data-order]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      var radio = document.querySelector('input[name="Tüüp"][value="Tellimus"]');
+      radio.checked = true;
+      radio.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  });
+</script>
+
+</body>
+</html>
