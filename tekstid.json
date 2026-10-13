@@ -28,7 +28,7 @@
   "hero": {
     "eyebrow": "Mahemesi · Muhumaa",
     "title": "Simmu-Mardi talu mesi",
-    "lead": "[Üks-kaks lauset: mis mesi see on ja miks see on hea – nt „Muhu niitude ja metsade mahemesi otse meie mesilast.“]",
+    "lead": "Maitsev mesi Muhumaa loodusest.",
     "orderButton": "Telli mett",
     "moreButton": "Loe lähemalt",
     "imageAlt": "Kolm Simmu-Mardi talu mahemee purki samblal metsas, taamal mesitarud"
@@ -36,15 +36,15 @@
 
   "about": {
     "eyebrow": "Meist",
-    "title": "Väike talu, päris mesi",
+    "title": "Päris mesi otse mesinikult",
     "intro": "[Üks lause talust ja mesindusest.]",
-    "card1PhotoPlaceholder": "Foto: mesi / meepurgid",
+    "card1ImageAlt": "Mesilane korjab õietolmu kollasel võililleõiel",
     "card1Title": "Mida pakume",
     "card1Text": "Mesi 700 g purkides otse Simmu-Mardi talust Muhus. [Üks-kaks lauset mee kohta: nt sort, maitse, kust mesilased korjavad.]",
     "card2ImageAlt": "Kolm kollase-rohelise triibulist mesitaru mesilas, taustal lehtpuud",
     "card2Title": "Kuidas töötame",
     "card2Text": "[Kuidas mesi valmib: nt mesilased, vurritamine, pudeldamine.]",
-    "card3PhotoPlaceholder": "Foto: talu / Muhu loodus",
+    "card3ImageAlt": "Mesinik kollaste mesitarude juures lehtmetsas",
     "card3Title": "Miks meie",
     "card3Text": "[Mis teeb talu eriliseks: nt pere ajalugu, kvaliteet, kohalikkus.]"
   },
@@ -61,7 +61,7 @@
     "point1": "Sertifitseeritud mahetoode",
     "point2": "Kättesaamine talust kokkuleppel – tasuta",
     "point3": "Pakiautomaati üle Eesti – saatmistasu vastavalt paki suurusele",
-    "point4": "Arve e-postiga, tasumine 3 päeva jooksul",
+    "point4": "Arve e-postiga",
     "point5": "Kaup teele 3 tööpäeva jooksul pärast makset",
     "orderButton": "Telli mett"
   },
